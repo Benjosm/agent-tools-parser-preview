@@ -1,0 +1,28 @@
+{
+  "name": "madison-parser-preview",
+  "version": "1.0.0",
+  "description": "A high-performance TypeScript parser for AI agents that handles raw code and YAML inputs without the fragility of standard JSON tool calling.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "EXAMPLE.js",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "coverage:report": "vitest report",
+    "test:unit": "vitest run src/__tests__/"
+  },
+  "dependencies": {
+    "@vitest/coverage-v8": "^4.0.16",
+    "dotenv": "^17.2.3",
+    "js-yaml": "^4.1.1",
+    "vitest": "^4.0.16"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
