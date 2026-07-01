@@ -1,12 +1,10 @@
-# The Madison Parser (v1.0)
+# The Agent Tools Parser (v1.0)
 
 ### Ultra-Reliable, "No-JSON" LLM Tool Calling for TypeScript
 
-The **Madison Parser** is a production-grade engine designed to solve the "JSON Escaping Hell" that plagues autonomous AI agents. While standard parsers fail when an LLM outputs complex code blocks, nested quotes, or multi-line strings, the Madison Parser handles them with **100% structural integrity**.
-
-## Why this Parser?
-
-Most developers rely on the LLM to output perfect JSON. When the AI tries to write a 50-line Python script or a complex YAML block inside a JSON string, it inevitably breaks.
+I created this while attempting to solve AI software development. There is a single parser function that checks for all kinds of response types including JSON, YAML, and every array variation possible.
+The flexibility lets you remove explicit instructions from the system prompt and save some tokens and cognitive load for the LLM. Most importantly, however, it lets the LLMs respond in natural language
+when writing code avoiding the complexity of JSON.
 
 **This parser is different:**
 
@@ -116,4 +114,4 @@ for (const [index, actionItem] of actions.entries()) {
 
 ## License & Support
 
-This is the **Lite Version** of the Madison Agentic Foundation. For the full framework including **Autonomous History Pruning**, **State Management**, and **Local AI (Ollama) Orchestration**, please visit the [Gumroad Store](https://benjomoen.gumroad.com/l/ltvxyh).
+This is the **Lite Version** of the complete project. For the full framework including **Autonomous History Pruning**, **State Management**, and **Local AI (Ollama) Orchestration**, please visit the [Gumroad Store](https://benjomoen.gumroad.com/l/ltvxyh).
